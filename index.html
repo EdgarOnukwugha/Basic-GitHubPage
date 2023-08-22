@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Basic GitHub Page</title>
+    <title>Testing Ground - Home</title>
+    <link rel="shortcut icon" href="./imgs/icons/test-favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
     <link rel="stylesheet" href="styles.css">
     <script src="components/header.js" type="text/javascript" defer></script>
@@ -13,12 +14,31 @@
 <body>
     <header-component></header-component>
     <main>
-        <article>
-            <h1>Basic GitHub Page</h1>
-            <p>Testing Website</p>
-            <hr>
-            <button> <a href="test.html">Press</a></button>
-        </article>        
+        <section class="hero">
+            <div class="call-to-action">
+                <h1>Testing Ground</h1>
+            <p>Used to test out new techniques on a live page - with little to no consequence</p>
+            </div>
+            <div class="display">
+                <p class="description">
+                    This is a description
+                </p>
+            </div>                        
+        </section>
+        <section class="test-text">
+            <p>This is <div class="tooltip">important <span class="tooltip-text">Tooltip appeared!</span></div>.</p>
+            <div class="tooltip">Hover over me
+                <span class="tooltip-text">Tooltip text</span>
+              </div>
+        </section>
+        <section class="download-section">
+            <ul class="download-list">
+                <li>
+                    <img class="download-icon" src="./imgs/icons/dystopia-corpo-logo.png" alt="Icon for Dystopia Corpo Logo">
+                    <button><a href="./downloadables/models/badge.blend" download>Download</a></button>
+                </li>
+            </ul>
+        </section>        
     </main>
     <footer-component></footer-component>
 </body>
