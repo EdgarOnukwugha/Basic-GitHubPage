@@ -2,6 +2,12 @@ const headerTemplate = document.createElement('template');
 
 headerTemplate.innerHTML = `
   <style>
+
+    header{
+      position:fixed;
+      width:100vw;
+    }
+
     nav {
       height: 40px;
       display: flex;
@@ -34,7 +40,9 @@ headerTemplate.innerHTML = `
   <header>
     <nav>
       <ul>
+        <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About</a></li>
+        <li><a href="./test.html">Test</a></li>
         <li><a href="work.html">Work</a></li>
         <li><a href="contact.html">Contact</a></li>
       </ul>
